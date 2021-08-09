@@ -1,0 +1,2 @@
+export const ADD_STRING_ONE = 'ADD_STRING_ONE'
+export const ADD_STRING_TWO = 'ADD_STRING_TWO'
