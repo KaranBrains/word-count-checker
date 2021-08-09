@@ -6,7 +6,7 @@ function Count() {
     const [input2,setInput2 ] = useState("");
 
     const countWords = (str) => {
-        return str.split(' ')
+        return str.split(/[\s, ]+/)
         .filter( n => n!='')
         .length
     }
