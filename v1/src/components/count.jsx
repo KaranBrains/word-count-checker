@@ -4,7 +4,7 @@ function Count() {
 
     const [input1,setInput1 ] = useState("");
     const [input2,setInput2 ] = useState("");
-
+    // test commit
     const countWords = (str) => {
         return str.split(/[\s, ]+/)
         .filter( n => n!='')
